@@ -40,12 +40,16 @@
         <tr>
             <td align="left">
                 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="8">
+                    
+                    <tr> 
+                        <td colspan="4" align="left" style="font-size:13px; border: 1px solid #000;">
+                            <legend style="border: 1px solid #ccc; background-color: #f0f0f0; font-weight: bold; padding: 5px 10px;width: auto; max-width:250px;">
+                            ข้อมูลลูกค้า Customer Detail</legend>
+                        </td>   
+                    </tr>
                     <tr height="30">
-                        <td width="30%" align="left" style="font-size:13px; border: 1px solid #000;">
-                            <legend style="border: 1px solid #ccc; background-color: #f0f0f0; font-weight: bold; padding: 5px 10px;width: auto; max-width: 170px;">
-                                ข้อมูลลูกค้า Customer Detail</legend><br>
-    
-                            &nbsp;ลำดับลูกค้า<br>(Customer Segment) : <input name="customer_segment" type="text" class="box_data1" id="textfield2" style="text-align:center;width:100px;font-size:13px;height: 2.5em;" value="16738" />
+                        <td width="30%" align="left" style="font-size:13px; border: 1px solid #000;">       
+                            ลำดับลูกค้า<br>(Customer Segment) : <input name="customer_segment" type="text" class="box_data1" id="textfield2" style="text-align:center;width:100px;font-size:13px;height: 2.5em;" value="16738" />
                         </td>
                         <td width="30%" align="left" style="font-size:13px; border: 1px solid #000;">
                             ชื่อบริษัท<br>(Customer):<input name="customer_name" type="text" readonly class="box_data1" id="textfield2" style="text-align:center;width:200px;" value=" ชื่อบริษัท (Customer):" />
@@ -104,27 +108,35 @@
         </tr>
         <tr height="60">
             <td align="left">
-                <table border="0" cellpadding="4" cellspacing="8">
+                <table border="0" cellpadding="0" cellspacing="8">
+              
+                    <tr><td colspan="6" style="font-size:13px; border: 1px solid #000;">รายการรับของจากลูกค้า Receiving List</td></tr>
+
                     <tr>
                         <td  style="text-align:left;width:100px;font-size:13px; border: 1px solid #000;width: auto;">
-                            ขั้นตอนการทำงาน<br>Work Process : <input name="textfield2" type="text" class="box_data1" id="textfield2" style="text-align:center;width:130px;height:30px;" value="" />
+                        แป้นไดคัท<br>Die Cut : <input name="textfield2" type="text" class="box_data1" id="textfield2" style="text-align:center;width:130px;height:30px;" value="" />
                         </td>
                         <td  style="text-align:left;width:100px;font-size:13px; border: 1px solid #000;width: auto;">
-                            ขั้นตอนการทำงาน<br>Work Process : <input name="textfield2" type="text" class="box_data1" id="textfield2" style="text-align:center;width:130px;height:30px;" value="" />
+                        ไฟล์งาน<br>Data File : <input name="textfield2" type="text" class="box_data1" id="textfield2" style="text-align:center;width:130px;height:30px;" value="" />
                         </td>
                         <td  style="text-align:left;width:100px;font-size:13px; border: 1px solid #000;width: auto;">
-                            ขั้นตอนการทำงาน<br>Work Process : <input name="textfield2" type="text" class="box_data1" id="textfield2" style="text-align:center;width:130px;height:30px;" value="" />
+                        แบบงานปริ้น<br>Printting : <input name="textfield2" type="text" class="box_data1" id="textfield2" style="text-align:center;width:130px;height:30px;" value="" />
                         </td>
                         <td  style="text-align:left;width:100px;font-size:13px; border: 1px solid #000;width: auto;">
-                            ขั้นตอนการทำงาน<br>Work Process : <input name="textfield2" type="text" class="box_data1" id="textfield2" style="text-align:center;width:130px;height:30px;" value="" />
+                        แบบงาน<br>Drawing : <input name="textfield2" type="text" class="box_data1" id="textfield2" style="text-align:center;width:130px;height:30px;" value="" />
                         </td>
                         <td  style="text-align:left;width:100px;font-size:13px; border: 1px solid #000;width: auto;">
-                            ขั้นตอนการทำงาน<br>Work Process : <input name="textfield2" type="text" class="box_data1" id="textfield2" style="text-align:center;width:130px;height:30px;" value="" />
+                        แบบจากอาร์ตเวิร์ค<br>Artwork : <input name="textfield2" type="text" class="box_data1" id="textfield2" style="text-align:center;width:130px;height:30px;" value="" />
                         </td>
                         <td  style="text-align:left;width:100px;font-size:13px; border: 1px solid #000;width: auto;">
-                            ขั้นตอนการทำงาน<br>Work Process : <input name="textfield2" type="text" class="box_data1" id="textfield2" style="text-align:center;width:130px;height:30px;" value="" />
+                        แบบจากตัวอย่าง<br>Sample : <input name="textfield2" type="text" class="box_data1" id="textfield2" style="text-align:center;width:130px;height:30px;" value="" />
                         </td>
                     </tr>
+                    <tr>
+                        <td colspan="3" style="text-align:left;width:100px;font-size:13px; border: 1px solid #000;width: auto;">
+                        ผู้ตรวจสอบเอกสาร<br>Document Reviewer : <input name="textfield2" type="text" class="box_data1" id="textfield2" style="text-align:center;width:250px;height:30px;" value="" />
+                        </td>
+                    </tr>    
                    
                 </table>
             </td>
@@ -132,17 +144,246 @@
         </tr>
         <tr>
             <td align="left">
-                <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <table width="100%" border="0" align="center" cellpadding="0" cellspacing="8">
+                    <tr> 
+                        <td colspan="4" align="left" style="font-size:13px; border: 1px solid #000;">
+                            <legend style="border: 1px solid #ccc; background-color: #f0f0f0; font-weight: bold; padding: 5px 10px;width: auto; max-width:250px;">
+                            ข้อมูลฝ่ายเขียนแบบ Drawing Department</legend>
+                        </td>   
+                    </tr>
                     <tr height="30">
-                        <td width="70%" align="left" class="bg-grey">
-                            &nbsp;&nbsp;ส่วนที่ 1 : การระบุรายละเอียดค่าใช้จ่าย
+                        <td width="25%" style="border:1px solid #000; padding:5px;">
+                            <div style="display: flex; align-items: center; gap: 5px;">
+                                <div style="font-size:13px;">
+                                ข้อมูลจากลูกค้า<br>(Customer File) :
+                                </div>
+                                <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
+                            </div>
                         </td>
+                        <td width="25%" style="border:1px solid #000; padding:5px;">
+                            <div style="display: flex; align-items: center; gap: 5px;">
+                                <div style="font-size:13px;">
+                                ทำแบบจาก<br>(Computer) :
+                                </div>
+                                <select name="" id="" style="width:130px; font-size:13px; height:2.5em;">
+                                        
+                                        <option value="apple">Email</option>
+                                        <option value="banana">Sample</option>
+                                        <option value="orange">Film</option>
+                                        <option value="mango">Printting</option>
+                                </select> 
+                            </div>
+                        </td>
+                        <td width="25%" style="border:1px solid #000; padding:5px;">
+                            <div style="display: flex; align-items: center; gap: 5px;">
+                                <div style="font-size:13px;">
+                                ขนาดไม้<br>(Wood Size) :
+                                </div>
+                                <select name="" id="" style="width:130px; font-size:13px; height:2.5em;">
+                                        
+                                        <option value="apple">10 mm. All</option>
+                                        <option value="banana">15 mm. All</option>
+                                        <option value="orange">20 mm. All</option>
+                                        <option value="mango">25.4 mm. All</option>
+                                        <option value="mango">2725x1040 mm.</option>
+                                </select> 
+                            </div>
+                        </td>
+                        <td width="25%" style="border:1px solid #000; padding:5px;">
+                            <div style="display: flex; align-items: center; gap: 5px;">
+                                <div style="font-size:13px;">
+                                ส่วนยืด<br>(Gripper) :
+                                </div>
+                                <select name="" id="" style="width:130px; font-size:13px; height:2.5em;">
+                                        
+                                        <option value="apple">10 mm. All</option>
+                                        <option value="banana">15 mm. All</option>
+                                        <option value="orange">20 mm. All</option>
+                                        <option value="mango">25.4 mm. All</option>
+                                        <option value="mango">2725x1040 mm.</option>
+                                </select> 
+                            </div>
+                        </td>
+                        <tr>
+                            <td width="25%" style="border:1px solid #000; padding:5px;">
+                                <div style="display: flex; align-items: center; gap: 5px;">
+                                    <div style="font-size:13px;">
+                                    มีดยาว<br>(Knife Length) :
+                                    </div>
+                                    <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
+                                </div>
+                            </td>
+                            <td width="25%" style="border:1px solid #000; padding:5px;">
+                                <div style="display: flex; align-items: center; gap: 5px;">
+                                    <div style="font-size:13px;">
+                                    เส้นพับยาว<br>(Creaseing) :
+                                    </div>
+                                    <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
+                                </div>
+                            </td>
+                            <td width="25%" style="border:1px solid #000; padding:5px;">
+                                <div style="display: flex; align-items: center; gap: 5px;">
+                                    <div style="font-size:13px;">
+                                    เส้นปรุยาว<br>(Perforation) :
+                                    </div>
+                                    <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
+                                </div>
+                            </td>
+                            <td width="25%" style="border:1px solid #000; padding:5px;">
+                                <div style="display: flex; align-items: center; gap: 5px;">
+                                    <div style="font-size:13px;">
+                                    ตัวเจาะรู<br>(Punch) :
+                                    </div>
+                                    <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" width="25%" style="border:1px solid #000; padding:5px;">
+                                <div style="display: flex; align-items: center; gap: 5px;">
+                                    <div style="font-size:13px;">
+                                    ตัดหน้า/หลังชิ้นงาน<br>(Revverse/NO Reverse) :
+                                    </div>
+                                    <select name="" id="" style="width:330px; font-size:13px; height:2.5em;">
+                                        
+                                        <option value="apple">Knife Up</option>
+                                        <option value="banana">Knife Down</option>
+                                        
+                                </select> 
+                                </div>
+                            </td>
+                            <td colspan="2" width="25%" style="border:1px solid #000; padding:5px;">
+                                <div style="display: flex; align-items: center; gap: 5px;">
+                                    <div style="font-size:13px;">
+                                    วัสดุที่จะตัด<br>(Material) :
+                                    </div>
+                                    <select name="" id="" style="width:350px; font-size:13px; height:2.5em;">
+                                        
+                                        <option value="apple">Artcard</option>
+                                        <option value="banana"></option>
+                                        
+                                </select> 
+                                </div>
+                            </td>
+                            
+
+                        </tr>
+                        <tr>
+                            <td colspan="4" width="25%" style="border:1px solid #000; padding:5px;">
+                                <div style="display: flex; align-items: center; gap: 5px;">
+                                    <div style="font-size:13px;">
+                                    หมายเหตุ :<br>(Remark) :
+                                    </div>
+                                    <input type="text" style="width:800px; font-size:13px; height:2.5em;" />
+                                </div>
+                            </td>
+                        </tr> 
+                        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="8">
+                        <tr>
+                            <td width="33%" style="border:1px solid #000; padding:5px;">
+                                <div style="display: flex; align-items: center; gap: 5px;">
+                                    <div style="font-size:13px;">
+                                    ผู้ตรวจสอบเอกสาร :<br>(Document Reviewer) :
+                                    </div>
+                                    <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
+                                </div>
+                            </td>
+                            <td width="33%" style="border:1px solid #000; padding:5px;">
+                                <div style="display: flex; align-items: center; gap: 5px;">
+                                    <div style="font-size:13px;">
+                                    เขียนแบบโดย :<br>(Drawing By) :
+                                    </div>
+                                    <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
+                                </div>
+                            </td>
+                            <td width="33%" style="border:1px solid #000; padding:5px;">
+                                <div style="display: flex; align-items: center; gap: 5px;">
+                                    <div style="font-size:13px;">
+                                    ตรวจสอบโดย :<br>(Checking By) :
+                                    </div>
+                                    <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
+                                </div>
+                            </td>
+                        </tr> 
+                             
                     </tr>
                 </table>
             </td>
         </tr>
-        </td>
-        </tr>
+        <tr>
+            <td align="left">
+                <table width="100%" border="0" align="center" cellpadding="0" cellspacing="8">
+                    <tr> 
+                        <td colspan="4" align="left" style="font-size:13px; border: 1px solid #000;">
+                            <legend style="border: 1px solid #ccc; background-color: #f0f0f0; font-weight: bold; padding: 5px 10px;width: auto; max-width:250px;">
+                            แผนกเลเซอร์ Laser Department</legend>
+                        </td>   
+                    </tr>
+                    <tr> 
+                        <td colspan="2" width="33%" style="border:1px solid #000; padding:5px;">
+                            <div style="display: flex; align-items: center; gap: 5px;">
+                                <div style="font-size:13px;">
+                                ความหนาไม้ :<br>(Wood Thickness) :
+                                </div>
+                                <select name="" id="" style="width:350px; font-size:13px; height:2.5em;">
+                                        
+                                        <option value="apple">6MM BIRCHWOOD</option>
+                                        <option value="banana">9MM BIRCHWOOD</option>
+                                        <option value="banana">12MM BIRCHWOOD</option>
+                                        <option value="banana">21MM(12+9)BRICHWOOD</option>
+                                        
+                                </select> 
+                            </div>
+                        </td>
+                        <td colspan="2" width="33%" style="border:1px solid #000; padding:5px;">
+                            <div style="display: flex; align-items: center; gap: 5px;">
+                                <div style="font-size:13px;">
+                                ขนาดร่องเลเซอร์ :<br>(Laser Beam) :
+                                </div>
+                                <select name="" id="" style="width:350px; font-size:13px; height:2.5em;">
+                                        
+                                <option value='apple'>1.3PT(0.45)</option>
+                                <option value='apple'>1.5PT(0.5)</option>
+                                <option value='apple'>2PT(0.7)</option>
+                                <option value='apple'>3PT(1.05)</option>
+                                <option value='apple'>4PT</option>       
+                                </select> 
+                            </div>
+                        </td>
+                    </tr>
+                    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="8">
+                        <tr>
+                            <td width="33%" style="border:1px solid #000; padding:5px;">
+                                <div style="display: flex; align-items: center; gap: 5px;">
+                                    <div style="font-size:13px;">
+                                    ผู้ตรวจสอบเอกสาร :<br>(Document Reviewer) :
+                                    </div>
+                                    <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
+                                </div>
+                            </td>
+                            <td width="33%" style="border:1px solid #000; padding:5px;">
+                                <div style="display: flex; align-items: center; gap: 5px;">
+                                    <div style="font-size:13px;">
+                                    เลเซอร์โดย :<br>(Laser By) :
+                                    </div>
+                                    <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
+                                </div>
+                            </td>
+                            <td width="33%" style="border:1px solid #000; padding:5px;">
+                                <div style="display: flex; align-items: center; gap: 5px;">
+                                    <div style="font-size:13px;">
+                                    ตรวจสอบโดย :<br>(Checking By) :
+                                    </div>
+                                    <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
+                                </div>
+                            </td>
+                        </tr> 
+                                  
+                </table>    
+            </td>                                   
+        </tr>                                
+
+       
         <tr>
 
             <td align="left">
@@ -356,15 +597,9 @@
 
 
                             </table>
-
-
-
                         </td>
 
                     </tr>
-
-
-
                     <tr height="30px;">
                         <td align="left" colspan="2" class="bg-grey">
                             &nbsp;&nbsp;ส่วนที่ 2 :&nbsp;การตรวจสอบและอนุมัติ
