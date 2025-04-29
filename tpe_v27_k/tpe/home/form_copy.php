@@ -12,19 +12,14 @@
 <body>
 
     <div class="page-break">&nbsp;</div>
-    <table width="1000" border="1" align="center" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border:2px solid #000;">
+    <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border:2px solid #000;">
 
         <tr>
             <td align="left">
-                <table width="100%" border="1" align="center" cellpadding="5" cellspacing="0">
+                <table width="100%" border="0" align="center" cellpadding="5" cellspacing="0">
                     <tr>
-                        <!-- <td width="40%">
-                            <label>ความเร่งด่วน (Urgency):</label>
-                            <input type="text" name="urgency"><br><br>
-                            <label>หมายเลขงาน (JOB No.):</label>
-                            <input type="text" name="job_no">
-                        </td> -->
-                        <td width="40%" style="border:1px solid #000; padding:5px;">
+                        
+                        <td width="40%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ความเร่งด่วน<br>Urgency :
@@ -42,7 +37,7 @@
                             </div>
 
                         </td>
-                        <td width="60%" align="right" valign="top" style="border:1px solid #000; padding:5px;">
+                        <td width="60%" align="right" valign="top" style="border:0px solid #000; padding:5px;">
                             <img src="tpe.png" style="width: 70%; height: 20%; display: block; margin-bottom: 10px;">
                             <div style="display: flex; justify-content: flex-end; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
@@ -59,13 +54,13 @@
             <td align="left">
                 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="8" style="margin-top: -10px;">
                     <tr>
-                        <td colspan="4" align="left" style="font-size:13px; border: 1px solid #000;">
-                            <legend style="border: 1px solid #ccc; background-color: #f0f0f0; font-weight: bold; padding: 5px 10px;width: auto; max-width:250px;">
+                        <td colspan="4" align="left" style="font-size:13px; border: 0px solid #000;">
+                            <legend style="border: 0px solid #ccc; background-color: #f0f0f0; font-weight: bold; padding: 5px 10px;width: auto; max-width:250px;">
                                 ข้อมูลลูกค้า Customer Detail</legend>
                         </td>
                     </tr>
                     <tr>
-                        <td width="30%" style="border:1px solid #000; padding:5px;">
+                        <td width="30%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ลำดับลูกค้า<br>(Customer Segment):
@@ -73,7 +68,7 @@
                                 <input type="text" style="width:100px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <td width="30%" style="border:1px solid #000; padding:5px;">
+                        <td width="30%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ชื่อบริษัท<br>(Customer):
@@ -81,7 +76,7 @@
                                 <input type="text" style="width:200px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <td width="30%" style="border:1px solid #000; padding:5px;">
+                        <td width="30%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     วันที่รับงาน<br>(Employment Date):
@@ -93,7 +88,7 @@
                 </table>
                 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="8" style="margin-top: -10px;">
                     <tr>
-                        <td width="65%" style="border:1px solid #000; padding:5px;">
+                        <td width="65%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ชื่องาน<br>(Name Job):
@@ -101,7 +96,7 @@
                                 <input type="text" style="width:400px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <td width="35%" style="border:1px solid #000; padding:5px;">
+                        <td width="35%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ลักษณะงาน<br>(Job Description) :
@@ -117,7 +112,7 @@
             <td>
                 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="8" style="margin-top: -10px;">
                     <tr>
-                        <td width="25%" style="border:1px solid #000; padding:5px;">
+                        <td width="25%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ขั้นตอนการทำงาน<br>Work Process :
@@ -125,7 +120,7 @@
                                 <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <td width="25%" style="border:1px solid #000; padding:5px;">
+                        <td width="25%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     จำนวน<br>Number :
@@ -133,7 +128,7 @@
                                 <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <td width="25%" style="border:1px solid #000; padding:5px;">
+                        <td width="25%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     คนรับงาน<br>Job Seeker :
@@ -147,7 +142,7 @@
                                 </select>
                             </div>
                         </td>
-                        <td width="25%" style="border:1px solid #000; padding:5px;">
+                        <td width="25%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ออกโดย<br>Out By :
@@ -171,14 +166,14 @@
             <td align="left">
                 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="8" style="margin-top: -10px;">
                     <tr>
-                        <td colspan="6" style="font-size:13px; border: 1px solid #000;">รายการรับของจากลูกค้า Receiving List</td>
+                        <td colspan="6" style="font-size:13px; border: 0px solid #000;">รายการรับของจากลูกค้า Receiving List</td>
                     </tr>
 
                     <tr>
-                        <!-- <td style="text-align:left;width:100px;font-size:13px; border: 1px solid #000;width: auto;">
+                        <!-- <td style="text-align:left;width:100px;font-size:13px; border: 0px solid #000;width: auto;">
                             แป้นไดคัท<br>Die Cut : <input name="textfield2" type="text" class="box_data1" id="textfield2" style="text-align:center;width:130px;height:30px;" value="" />
                         </td> -->
-                        <td style="border:1px solid #000; padding:5px;">
+                        <td style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     แป้นไดคัท<br>Die Cut :
@@ -186,10 +181,10 @@
                                 <input type="text" style="width:60px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <!-- <td style="text-align:left;width:100px;font-size:13px; border: 1px solid #000;width: auto;">
+                        <!-- <td style="text-align:left;width:100px;font-size:13px; border: 0px solid #000;width: auto;">
                             ไฟล์งาน<br>Data File : <input name="textfield2" type="text" class="box_data1" id="textfield2" style="text-align:center;width:130px;height:30px;" value="" />
                         </td> -->
-                        <td style="border:1px solid #000; padding:5px;">
+                        <td style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ไฟล์งาน<br>File :
@@ -197,10 +192,10 @@
                                 <input type="text" style="width:60px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <!-- <td style="text-align:left;width:100px;font-size:13px; border: 1px solid #000;width: auto;">
+                        <!-- <td style="text-align:left;width:100px;font-size:13px; border: 0px solid #000;width: auto;">
                             แบบงานปริ้น<br>Printting : <input name="textfield2" type="text" class="box_data1" id="textfield2" style="text-align:center;width:130px;height:30px;" value="" />
                         </td> -->
-                        <td style="border:1px solid #000; padding:5px;">
+                        <td style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     แบบงานปริ้น<br>Printting :
@@ -208,10 +203,10 @@
                                 <input type="text" style="width:60px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <!-- <td style="text-align:left;width:100px;font-size:13px; border: 1px solid #000;width: auto;">
+                        <!-- <td style="text-align:left;width:100px;font-size:13px; border: 0px solid #000;width: auto;">
                             แบบงาน<br>Drawing : <input name="textfield2" type="text" class="box_data1" id="textfield2" style="text-align:center;width:130px;height:30px;" value="" />
                         </td> -->
-                        <td style="border:1px solid #000; padding:5px;">
+                        <td style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     แบบงาน<br>Drawing :
@@ -219,10 +214,10 @@
                                 <input type="text" style="width:60px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <!-- <td style="text-align:left;width:100px;font-size:13px; border: 1px solid #000;width: auto;">
+                        <!-- <td style="text-align:left;width:100px;font-size:13px; border: 0px solid #000;width: auto;">
                             แบบจากอาร์ตเวิร์ค<br>Artwork : <input name="textfield2" type="text" class="box_data1" id="textfield2" style="text-align:center;width:130px;height:30px;" value="" />
                         </td> -->
-                        <td style="border:1px solid #000; padding:5px;">
+                        <td style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     แบบจากอาร์ตเวิร์ค<br>Artwork :
@@ -230,10 +225,10 @@
                                 <input type="text" style="width:60px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <!-- <td style="text-align:left;width:100px;font-size:13px; border: 1px solid #000;width: auto;">
+                        <!-- <td style="text-align:left;width:100px;font-size:13px; border: 0px solid #000;width: auto;">
                             แบบจากตัวอย่าง<br>Sample : <input name="textfield2" type="text" class="box_data1" id="textfield2" style="text-align:center;width:130px;height:30px;" value="" />
                         </td> -->
-                        <td style="border:1px solid #000; padding:5px;">
+                        <td style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     แบบจากตัวอย่าง<br>Sample :
@@ -243,7 +238,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="3" style="border:1px solid #000; padding:5px;">
+                        <td colspan="3" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ผู้ตรวจสอบเอกสาร<br>Document Reviewer :
@@ -261,13 +256,13 @@
             <td align="left">
                 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="8" style="margin-top: -10px;">
                     <tr>
-                        <td colspan="4" align="left" style="font-size:13px; border: 1px solid #000;">
-                            <legend style="border: 1px solid #ccc; background-color: #f0f0f0; font-weight: bold; padding: 5px 10px;width: auto; max-width:250px;">
+                        <td colspan="4" align="left" style="font-size:13px; border: 0px solid #000;">
+                            <legend style="border: 0px solid #ccc; background-color: #f0f0f0; font-weight: bold; padding: 5px 10px;width: auto; max-width:250px;">
                                 ข้อมูลฝ่ายเขียนแบบ Drawing Department</legend>
                         </td>
                     </tr>
                     <tr height="30">
-                        <td width="25%" style="border:1px solid #000; padding:5px;">
+                        <td width="25%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ข้อมูลจากลูกค้า<br>(Customer File) :
@@ -275,7 +270,7 @@
                                 <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <td width="25%" style="border:1px solid #000; padding:5px;">
+                        <td width="25%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ทำแบบจาก<br>(Computer) :
@@ -289,7 +284,7 @@
                                 </select>
                             </div>
                         </td>
-                        <td width="25%" style="border:1px solid #000; padding:5px;">
+                        <td width="25%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ขนาดไม้<br>(Wood Size) :
@@ -304,7 +299,7 @@
                                 </select>
                             </div>
                         </td>
-                        <td width="25%" style="border:1px solid #000; padding:5px;">
+                        <td width="25%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ส่วนยืด<br>(Gripper) :
@@ -320,7 +315,7 @@
                             </div>
                         </td>
                     <tr>
-                        <td width="25%" style="border:1px solid #000; padding:5px;">
+                        <td width="25%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     มีดยาว<br>(Knife Length) :
@@ -328,7 +323,7 @@
                                 <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <td width="25%" style="border:1px solid #000; padding:5px;">
+                        <td width="25%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     เส้นพับยาว<br>(Creaseing) :
@@ -336,7 +331,7 @@
                                 <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <td width="25%" style="border:1px solid #000; padding:5px;">
+                        <td width="25%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     เส้นปรุยาว<br>(Perforation) :
@@ -344,7 +339,7 @@
                                 <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <td width="25%" style="border:1px solid #000; padding:5px;">
+                        <td width="25%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ตัวเจาะรู<br>(Punch) :
@@ -354,7 +349,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2" width="25%" style="border:1px solid #000; padding:5px;">
+                        <td colspan="2" width="25%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ตัดหน้า/หลังชิ้นงาน<br>(Revverse/NO Reverse) :
@@ -367,7 +362,7 @@
                                 </select>
                             </div>
                         </td>
-                        <td colspan="2" width="25%" style="border:1px solid #000; padding:5px;">
+                        <td colspan="2" width="25%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     วัสดุที่จะตัด<br>(Material) :
@@ -382,7 +377,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="4" width="25%" style="border:1px solid #000; padding:5px;">
+                        <td colspan="4" width="25%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     หมายเหตุ :<br>(Remark) :
@@ -394,7 +389,7 @@
                 </table>
                 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="8" style="margin-top: -10px;">
                     <tr>
-                        <td width="33%" style="border:1px solid #000; padding:5px;">
+                        <td width="33%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ผู้ตรวจสอบเอกสาร :<br>(Document Reviewer) :
@@ -402,7 +397,7 @@
                                 <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <td width="33%" style="border:1px solid #000; padding:5px;">
+                        <td width="33%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     เขียนแบบโดย :<br>(Drawing By) :
@@ -410,7 +405,7 @@
                                 <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <td width="33%" style="border:1px solid #000; padding:5px;">
+                        <td width="33%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ตรวจสอบโดย :<br>(Checking By) :
@@ -427,13 +422,13 @@
             <td align="left">
                 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="8" style="margin-top: -10px;">
                     <tr>
-                        <td colspan="4" align="left" style="font-size:13px; border: 1px solid #000;">
-                            <legend style="border: 1px solid #ccc; background-color: #f0f0f0; font-weight: bold; padding: 5px 10px;width: auto; max-width:250px;">
+                        <td colspan="4" align="left" style="font-size:13px; border: 0px solid #000;">
+                            <legend style="border: 0px solid #ccc; background-color: #f0f0f0; font-weight: bold; padding: 5px 10px;width: auto; max-width:250px;">
                                 แผนกเลเซอร์ Laser Department</legend>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2" width="33%" style="border:1px solid #000; padding:5px;">
+                        <td colspan="2" width="33%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ความหนาไม้ :<br>(Wood Thickness) :
@@ -448,7 +443,7 @@
                                 </select>
                             </div>
                         </td>
-                        <td colspan="2" width="33%" style="border:1px solid #000; padding:5px;">
+                        <td colspan="2" width="33%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ขนาดร่องเลเซอร์ :<br>(Laser Beam) :
@@ -467,7 +462,7 @@
                 </table>
                 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="8" style="margin-top: -10px;">
                     <tr>
-                        <td width="33%" style="border:1px solid #000; padding:5px;">
+                        <td width="33%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ผู้ตรวจสอบเอกสาร :<br>(Document Reviewer) :
@@ -475,7 +470,7 @@
                                 <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <td width="33%" style="border:1px solid #000; padding:5px;">
+                        <td width="33%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     เลเซอร์โดย :<br>(Laser By) :
@@ -483,7 +478,7 @@
                                 <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <td width="33%" style="border:1px solid #000; padding:5px;">
+                        <td width="33%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ตรวจสอบโดย :<br>(Checking By) :
@@ -501,15 +496,15 @@
             <td align="left">
                 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="8" style="margin-top: -10px;">
                     <tr>
-                        <td colspan="4" align="left" style="font-size:13px; border: 1px solid #000;">
-                            <legend style="border: 1px solid #ccc; background-color: #f0f0f0; font-weight: bold; padding: 5px 10px;width: auto; max-width:250px;">
+                        <td colspan="4" align="left" style="font-size:13px; border: 0px solid #000;">
+                            <legend style="border: 0px solid #ccc; background-color: #f0f0f0; font-weight: bold; padding: 5px 10px;width: auto; max-width:250px;">
                                 แผนกวางมีด Production Department</legend>
                         </td>
                     </tr>
                 </table>
                 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="8" style="margin-top: -10px;">
                     <tr>
-                        <td width="65%" style="border:1px solid #000; padding:5px;">
+                        <td width="65%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     มีด :<br>(Knife) :
@@ -517,7 +512,7 @@
                                 <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <td width="35%" style="border:1px solid #000; padding:5px;">
+                        <td width="35%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ใช้มีดยาว :<br>(Knife Used) :
@@ -527,7 +522,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td width="65%" style="border:1px solid #000; padding:5px;">
+                        <td width="65%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     เส้นพับ :<br>(Creaseing) :
@@ -535,7 +530,7 @@
                                 <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <td width="35%" style="border:1px solid #000; padding:5px;">
+                        <td width="35%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ใช้เส้นพับยาว :<br>(Crease Used) :
@@ -545,7 +540,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td width="65%" style="border:1px solid #000; padding:5px;">
+                        <td width="65%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     เส้นปรุ :<br>(Perforation) :
@@ -553,7 +548,7 @@
                                 <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <td width="35%" style="border:1px solid #000; padding:5px;">
+                        <td width="35%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ใช้เส้นปรุยาว :<br>(Perf Used) :
@@ -565,7 +560,7 @@
                 </table>
                 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="8" style="margin-top: -10px;">
                     <tr>
-                        <td width="50%" style="border:1px solid #000; padding:5px;">
+                        <td width="50%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ดัดมีดโดย :<br>(Made By) :
@@ -573,7 +568,7 @@
                                 <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <td width="25%" style="border:1px solid #000; padding:5px;">
+                        <td width="25%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ใส่ยางโดย :<br>(Insert Rubber) :
@@ -581,7 +576,7 @@
                                 <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <td width="25%" style="border:1px solid #000; padding:5px;">
+                        <td width="25%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     จำนวน :<br>(Total) :
@@ -594,7 +589,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td width="25%" style="border:1px solid #000; padding:5px;">
+                        <td width="25%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ตัวเจาะรู :<br>(Punch) :
@@ -602,7 +597,7 @@
                                 <input type="text" style="width:130px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <td width="25%" style="border:1px solid #000; padding:5px;">
+                        <td width="25%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     จำนวน :<br>(Total) :
@@ -615,7 +610,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td width="25%" style="border:1px solid #000; padding:5px;">
+                        <td width="25%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ผู้ตรวจสอบเอกสาร :<br>(Document Reviewer) :
@@ -633,8 +628,8 @@
             <td>
                 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="8" style="margin-top: -10px;">
                     <tr>
-                        <td colspan="4" align="left" style="font-size:13px; border: 1px solid #000;">
-                            <legend style="border: 1px solid #ccc; background-color: #f0f0f0; font-weight: bold; padding: 5px 10px;width: auto; max-width:250px;">
+                        <td colspan="4" align="left" style="font-size:13px; border: 0px solid #000;">
+                            <legend style="border: 0px solid #ccc; background-color: #f0f0f0; font-weight: bold; padding: 5px 10px;width: auto; max-width:250px;">
                                 แผนกตรวจสอบคุณภาพ QC Department</legend>
                         </td>
 
@@ -642,7 +637,7 @@
                 </table>
                 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="8" style="margin-top: -10px;">
                     <tr>
-                        <td width="20%" style="border:1px solid #000; padding:5px;">
+                        <td width="20%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     จุดเชื่อม<br>(Joint) :
@@ -650,7 +645,7 @@
                                 <input type="text" style="width:90px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <td width="20%" style="border:1px solid #000; padding:5px;">
+                        <td width="20%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     วัดค่า<br>(Measure) :
@@ -658,7 +653,7 @@
                                 <input type="text" style="width:90px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <td width="20%" style="border:1px solid #000; padding:5px;">
+                        <td width="20%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     คมมีด<br>(Sharp) :
@@ -666,7 +661,7 @@
                                 <input type="text" style="width:90px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <td width="20%" style="border:1px solid #000; padding:5px;">
+                        <td width="20%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ติดยาง<br>(Rubber) :
@@ -674,7 +669,7 @@
                                 <input type="text" style="width:90px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <td width="20%" style="border:1px solid #000; padding:5px;">
+                        <td width="20%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     หมายเหตุ<br>(Remark) :
@@ -686,7 +681,7 @@
                 </table>
                 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="8" style="margin-top: -10px;">
                     <tr>
-                        <td style="border:1px solid #000; padding:5px;">
+                        <td style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     งานเก่า :<br>(Old Diecut) :
@@ -697,7 +692,7 @@
                                 </select>
                             </div>
                         </td>
-                        <td style="border:1px solid #000; padding:5px;">
+                        <td style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ซีดี :<br>(CD) :
@@ -708,7 +703,7 @@
                                 </select>
                             </div>
                         </td>
-                        <td style="border:1px solid #000; padding:5px;">
+                        <td style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ฟิล์ม :<br>(Film) :
@@ -719,7 +714,7 @@
                                 </select>
                             </div>
                         </td>
-                        <td style="border:1px solid #000; padding:5px;">
+                        <td style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ปริ้นติ้ง :<br>(Printting) :
@@ -730,7 +725,7 @@
                                 </select>
                             </div>
                         </td>
-                        <td style="border:1px solid #000; padding:5px;">
+                        <td style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     รูป :<br>(Picture) :
@@ -741,7 +736,7 @@
                                 </select>
                             </div>
                         </td>
-                        <td style="border:1px solid #000; padding:5px;">
+                        <td style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     อาร์ตเวิร์ค :<br>(Art Work) :
@@ -756,7 +751,7 @@
                 </table>
                 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="8" style="margin-top: -10px;">
                     <tr>
-                        <td width="25%" style="border:1px solid #000; padding:5px;">
+                        <td width="25%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ตัวอย่าง :<br>(Sample) :
@@ -767,7 +762,7 @@
                                 </select>
                             </div>
                         </td>
-                        <td width="25%" style="border:1px solid #000; padding:5px;">
+                        <td width="25%" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ค่าบวก/ลบ :<br>(Toralance) :
@@ -775,7 +770,7 @@
                                 <input type="text" style="width:100px; font-size:13px; height:2.5em;" />
                             </div>
                         </td>
-                        <td align="right" style="border:1px solid #000; padding:5px;">
+                        <td align="right" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center;justify-content: flex-end; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ตรวจสอบคุณภาพโดย :<br>(QC Passed By) :
@@ -792,8 +787,8 @@
             <td>
                 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="8" style="margin-top: -10px;">
                     <tr>
-                        <td colspan="4" align="left" style="font-size:13px; border: 1px solid #000;">
-                            <legend style="border: 1px solid #ccc; background-color: #f0f0f0; font-weight: bold; padding: 5px 10px;width: auto; max-width:250px;">
+                        <td colspan="4" align="left" style="font-size:13px; border: 0px solid #000;">
+                            <legend style="border: 0px solid #ccc; background-color: #f0f0f0; font-weight: bold; padding: 5px 10px;width: auto; max-width:250px;">
                                 แผนกจัดส่ง Shipping Department</legend>
                             ของที่คืนลูกค้า Return to Customer
                         </td>
@@ -802,7 +797,7 @@
                 </table>
                 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="8" style="margin-top: -10px;">
                     <tr>
-                        <td style="border:1px solid #000; padding:5px;">
+                        <td style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     งานเก่า :<br>(Old Diecut) :
@@ -813,7 +808,7 @@
                                 </select>
                             </div>
                         </td>
-                        <td style="border:1px solid #000; padding:5px;">
+                        <td style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ซีดี :<br>(CD) :
@@ -824,7 +819,7 @@
                                 </select>
                             </div>
                         </td>
-                        <td style="border:1px solid #000; padding:5px;">
+                        <td style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ฟิล์ม :<br>(Film) :
@@ -835,7 +830,7 @@
                                 </select>
                             </div>
                         </td>
-                        <td style="border:1px solid #000; padding:5px;">
+                        <td style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ปริ้นติ้ง :<br>(Printting) :
@@ -846,7 +841,7 @@
                                 </select>
                             </div>
                         </td>
-                        <td style="border:1px solid #000; padding:5px;">
+                        <td style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     รูป :<br>(Picture) :
@@ -857,7 +852,7 @@
                                 </select>
                             </div>
                         </td>
-                        <td style="border:1px solid #000; padding:5px;">
+                        <td style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     อาร์ตเวิร์ค :<br>(Art Work) :
@@ -868,7 +863,7 @@
                                 </select>
                             </div>
                         </td>
-                        <td style="border:1px solid #000; padding:5px;">
+                        <td style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     ตัวอย่าง :<br>(Sample) :
@@ -881,7 +876,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="8" style="border:1px solid #000; padding:5px;">
+                        <td colspan="8" style="border:0px solid #000; padding:5px;">
                             <div style="display: flex; align-items: center; gap: 5px;">
                                 <div style="font-size:13px;">
                                     หมายเหตุ :<br>(Remark) :
